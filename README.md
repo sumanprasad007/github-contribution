@@ -9,3 +9,4 @@ Auto generating Github contributions everyday using Github Actions.
 # How it works
 It runs once a day around 12:00 (GMT), UTC +0. And it makes an empty commit to add contribution to your Github profile.
 # github-contribution
+
