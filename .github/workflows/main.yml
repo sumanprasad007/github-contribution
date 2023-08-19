@@ -7,7 +7,7 @@ on:
       branches: [ "main" ]
   pull_request:
       branches: [ "main" ]
-      
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -22,6 +22,6 @@ jobs:
       - name: Run commit script
         run: |
            git config --global user.name ${GITHUB_ACTOR}
-           git config --global user.email ${{ secrets.USER_EMAIl }}
+           git config --global user.email ${{ secrets.USER_EMAIL }}
            git commit --allow-empty -m "Streak grass: `date +'%Y-%m-%d %H:%M:%S'`" 
            git push origin main
