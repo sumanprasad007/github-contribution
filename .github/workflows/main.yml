@@ -1,7 +1,7 @@
 name: Streak
 on:
   schedule:
-  - cron: '0 12 * * *' # every day at noon
+  - cron: '0 9 * * *' # every day at morning 9
 
   push:
       branches: [ "main" ]
